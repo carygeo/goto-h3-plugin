@@ -1,9 +1,9 @@
 # GoTo H3 — QGIS Plugin
 
-Quickly navigate to one or many Uber H3 cells in QGIS.
+Quickly navigate to one or many Uber H3 cells in QGIS.  
 Paste H3 indexes, visualize their hex boundaries, record resolutions, and zoom automatically.
 
----
+![GoTo H3 plugin screenshot](screenshot.png)
 
 ## Overview
 
