@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Packaging artifacts
+packages/
+*.zip
+
+# QGIS plugin cache files
+*.qml
+*.qgz
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Build & IDE configs
+.idea/
+.vscode/
+
+# QGIS Plugin CI output
+.qgis-plugin-ci.lock
+
