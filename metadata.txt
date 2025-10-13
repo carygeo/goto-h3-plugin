@@ -1,0 +1,30 @@
+[general]
+name=GoTo H3
+qgisMinimumVersion=3.22
+description=Paste one or many H3 indexes (comma, space, or newline-separated), draws their polygons, records resolution values, and pans/zooms the map to them.
+about=GoTo H3 lets you quickly navigate to one or more Uber H3 cells by entering or pasting indexes. Each cell is rendered as a polygon in EPSG:4326 with its H3 index and resolution stored in the attribute table. The plugin automatically adds the layer to your project and zooms to the combined extent.
+version=0.2.0
+author=Cary Greenwood
+email=carygreenwood@gmail.com
+
+# URLs (public, working links help validation)
+homepage=https://github.com/carygeo/goto-h3-plugin
+repository=https://github.com/carygeo/goto-h3-plugin
+tracker=https://github.com/carygeo/goto-h3-plugin/issues
+
+# Where users will expect to find it in QGIS menus
+category=Vector
+
+# Optional but recommended
+icon=icon.png
+tags=h3,hexagon,resolution,navigation,vector,debug,utilities
+changelog=
+    0.2.0 - Added support for multiple H3 indexes and a 'res' column for H3 resolution.
+    0.1.0 - Initial release (single-cell navigation).
+
+# Flags
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=False
+qgisMaximumVersion=
