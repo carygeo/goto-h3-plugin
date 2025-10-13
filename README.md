@@ -1,13 +1,13 @@
-# GoTo H3 — QGIS Plugin
+# GoToH3 — QGIS Plugin
 
 Quickly navigate to one or many Uber H3 cells in QGIS.  
 Paste H3 indexes, visualize their hex boundaries, record resolutions, and zoom automatically.
 
-![GoTo H3 plugin screenshot](https://raw.githubusercontent.com/carygeo/goto-h3-plugin/main/goto_h3_plugin/screenshot.png)
+![GoToH3 plugin screenshot](https://raw.githubusercontent.com/carygeo/goto-h3-plugin/main/goto_h3_plugin/screenshot.png)
 
 ## Overview
 
-GoTo H3 adds a toolbar button and menu entry under **Plugins → H3 Tools**.
+GoToH3 adds a toolbar button and menu entry under **Plugins → H3 Tools**.
 It lets you jump directly to any H3 index — or a whole list of them — without leaving QGIS.
 
 You can:
@@ -28,7 +28,7 @@ You can:
 ### From QGIS Plugin Manager (recommended)
 
 1. Open **QGIS → Plugins → Manage and Install Plugins**
-2. Search for **“GoTo H3”**
+2. Search for **“GoToH3”**
 3. Click **Install**
 
 ### Manual install (for development or testing)
@@ -39,7 +39,7 @@ You can:
    * **macOS**: `~/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/`
    * **Windows**: `%APPDATA%\QGIS\QGIS3\profiles\default\python\plugins\`
    * **Linux**: `~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/`
-3. Restart QGIS and enable **GoTo H3** under **Plugins → Manage and Install Plugins → Installed**.
+3. Restart QGIS and enable **GoToH3** under **Plugins → Manage and Install Plugins → Installed**.
 
 ---
 
