@@ -3,7 +3,7 @@ name=GoToH3
 qgisMinimumVersion=3.22
 description=Paste one or many H3 indexes (comma, space, or newline-separated), draws their polygons, records resolution values, and pans/zooms the map to them.
 about=GoToH3 lets you quickly navigate to one or more Uber H3 cells by entering or pasting indexes. Each cell is rendered as a polygon in EPSG:4326 with its H3 index and resolution stored in the attribute table. The plugin automatically adds the layer to your project and zooms to the combined extent.
-version=0.3.0
+version=0.3.1
 author=Cary Greenwood
 email=carygreenwood@gmail.com
 
