@@ -1,0 +1,6 @@
+Collecting h3
+  Downloading h3-4.4.1-cp312-cp312-macosx_11_0_arm64.whl.metadata (18 kB)
+Downloading h3-4.4.1-cp312-cp312-macosx_11_0_arm64.whl (822 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 822.4/822.4 kB 2.0 MB/s eta 0:00:00
+Installing collected packages: h3
+Successfully installed h3-4.4.1

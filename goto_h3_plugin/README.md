@@ -39,7 +39,20 @@ You can:
    * **macOS**: `~/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/`
    * **Windows**: `%APPDATA%\QGIS\QGIS3\profiles\default\python\plugins\`
    * **Linux**: `~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/`
-3. Restart QGIS and enable **GoToH3** under **Plugins → Manage and Install Plugins → Installed**.
+3. **Install the h3 dependency**:
+   
+   **Option A: Install h3 system-wide** (easier for development):
+   ```bash
+   pip install h3>=3.7.0
+   ```
+   
+   **Option B: Bundle h3 with the plugin** (for distribution):
+   ```bash
+   # From the plugin directory
+   pip install h3>=3.7.0 --target ./goto_h3_plugin/libs
+   ```
+   
+4. Restart QGIS and enable **GoToH3** under **Plugins → Manage and Install Plugins → Installed**.
 
 ---
 

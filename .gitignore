@@ -26,3 +26,6 @@ venv/
 # QGIS Plugin CI output
 .qgis-plugin-ci.lock
 
+# Bundled dependencies
+goto_h3_plugin/libs/
+
